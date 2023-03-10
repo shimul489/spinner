@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinner Landing Page</title>
+    <!-- Bootstrap-cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <!-- <link rel="stylesheet" href="./assets/css/swipper.css"> -->
+    <link rel="stylesheet" href="./assets/css/swipper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- jquery link cdn -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-area style-1 sticky">
+        <div class="header-logo">
+            <a href="index.html"><img alt="image" src="assets/images/icons/header1-logo.svg"></a>
+        </div>
+        <div class="main-nav">
+            <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
+                <div class="mobile-logo-wrap ">
+                    <a href="index.html"><img alt="image" src="assets/images/icons/header1-logo.svg"></a>
+                </div>
+                <div class="menu-close-btn">
+                    <i class="bi bi-x-lg text-white"></i>
+                </div>
+            </div>
+            <ul class="menu-list">
+                <li class="menu-item-has-children">
+                    <a href="#" class="drop-down page-active">Home</a><i class='bi bi-chevron-down dropdown-icon'></i>
+                    <ul class="sub-menu">
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="index2.html">Home 2</a></li>
+                        <li><a href="index3.html">Home 3</a></li>
+                        <li><a href="index4.html">Home 4</a></li>
+                        <li><a href="index5.html">Home 5</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="#" class="drop-down">Pages</a><i class='bi bi-chevron-down dropdown-icon'></i>
+                    <ul class="sub-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="job-list.html">Job List</a></li>
+                        <li><a href="job-details.html">Career</a></li>
+                        <li><a href="error.html">Submenu</a><i class='bi bi-chevron-right dropdown-icon'></i>
+                            <ul class="sub-menu">
+                                <li><a href="about.html">Child 1</a></li>
+                                <li><a href="team.html">Child 2</a></li>
+                                <li><a href="faq.html">Child 3</a></li>
+                                <li><a href="error.html">Child 4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="" class="drop-down">Services</a><i
+                        class='bi bi-chevron-down dropdown-icon'></i>
+                    <ul class="sub-menu">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Services Details</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="#" class="drop-down">Projects</a><i class='bi bi-chevron-down dropdown-icon'></i>
+                    <ul class="sub-menu">
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Projects Details</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="#">Blog</a><i class='bi bi-chevron-down dropdown-icon'></i>
+                    <ul class="sub-menu">
+                        <li><a href="#">Blog Grid</a></li>
+                        <li><a href="#">Blog Standard</a></li>
+                        <li><a href="#">Blog details</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <!-- mobile-search-area -->
+            <div class="d-lg-none d-block">
+                <form class="mobile-menu-form">
+                    <div class="input-with-btn d-flex flex-column">
+                        <input type="text" placeholder="Search here...">
+                        <button type="submit" class="eg-btn btn--primary btn--sm">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="nav-right d-flex align-items-center gap-5">
+            <div class="mobile-menu-btn d-lg-none d-block">
+                <h5 class="text-white mb-0">MENU</h5>
+            </div>
+            <div class="header-icons d-flex align-items-center">
+                <div class="search-btn">
+                    <i class="bi bi-search"></i>
+                </div>
+                <div class="sidebar-btn">
+                    <i class="bi bi-list"></i>
+                </div>
+            </div>
+            
+            <div class="eg-btn btn--primary header-btn">
+                <a href="contact.html">LET'S TALK</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========banner stction start here======= -->
+
+    <div class="banner-section1 pt-120 pb-120">
+        <ul class="banner-social gap-5">
+            <li><a href="https://www.twitter.com/">Twitter</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+        <img src="assets/images/bg/banner-rain.png" class="banner-rain" alt="images">
+        <img src="assets/images/bg/banner-spring1.png" class="banner-spring1" alt="images">
+        <img src="assets/images/bg/banner-spring2.png" class="banner-spring2" alt="images">
+        <img src="assets/images/bg/banner-spring3.png" class="banner-spring3" alt="images">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="banner-content">
+                        <span>Wellcome to Our Agency</span>
+                        <h1>Smart Ideas for your Brand are Here</h1>
+                        <p>Donec tincidunt lacinia diam, eu volutpat est sollicitudin at. Vestibulum ut mi tristi que,
+                            vulputate ante quis, tempus enim. Proin quis euismod purus. Suspen disse efficitur aliquam
+                            enim sed consequat.</p>
+                        <div class="button-group gap-5">
+                            <a href="project.html" class="eg-btn btn--primary btn--lg">Discover More</a>
+                            <div class="btn-with-vdo d-flex align-items-center gap-4">
+                                <div class="video-play">
+                                    <a href="https://www.youtube.com/watch?v=u31qwQUeGuM"
+                                        class="popup-youtube video-icon"><i class="bx bx-play"></i></a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=u31qwQUeGuM"
+                                    class="video-btn popup-youtube">How it works</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 position-relative">
+                    <div class="solar-vector-area">
+                        <img src="assets/images/bg/solar-vector.png" class="img-fluid banner1-v1" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========banner section end here======= -->
+
+
+    <!-- ========about section start here======= -->
+
+    <div class="about-section pt-120 pb-120">
+        <img src="assets/images/bg/section-bg1.png" class="img-fluid section-bg1" alt="image">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <div class="about-content">
+                        <span>-About Our Company-</span>
+                        <h3>We are committed to providing our customers with exceptional.</h3>
+                        <p class="para">Lorem Ipsum is simply dummy text of free available in market the way printing
+                            and typesetting industry has been the industry's standard dummy text ever.</p>
+                        <ul class="about-list">
+                            <li>Price of additional materials or parts (if needed)</li>
+                            <li>Transportation cost for carrying new materials/parts</li>
+                            <li>Interpreting services is our specialty</li>
+                        </ul>
+                        <a href="#" class="eg-btn btn--primary btn--lg">KNOW MORE</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="about-images">
+                        <div class="row g-0">
+                            <div class="col-6">
+                                <img src="assets/images/blogs/about-11.png" class="about11 img-fluid" alt="image">
+                                <div class="experience-tag">
+                                    <div class="tag-inner">
+                                        <img src="assets/images/icons/medal-icon.svg" alt="image">
+                                        <h5>10+ Years Experience</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 position-relative">
+                                <img src="assets/images/blogs/about12.png" class="about12 img-fluid" alt="image">
+                                <img src="assets/images/blogs/about-13.png" class="about13 img-fluid" alt="image">
+                                <img src="assets/images/icons/sun-icon.svg" class="sun-icon" alt="image">
+                                <img src="assets/images/icons/about-dot.svg" class="about-dot" alt="image">
+                                <img src="assets/images/icons/about-triangle.svg" class="about-triangle" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========about section end here======= -->
+
+
+    <!-- =============== services-section start  =============== -->
+    <div class="service-section pt-120 pb-120">
+        <img src="assets/images/bg/water-mark1.png" alt="image" class="img-fluid water-mark1">
+        <img src="assets/images/bg/water-mark2.png" alt="image" class="img-fluid water-mark2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="section-title primary4">
+                        <span>-What We Offer-</span>
+                        <h3>Our Best Solution</h3>
+                        <p class="para">Get the most of reduction in your team’s operating costs for the whole product
+                            which creates amazing UI/UX experiences.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- eeeeee -->
+            <!-- <div class="col-md-6 d-lg-flex justify-content-end d-none">
+                <div class="slider-arrows2 text-center d-flex gap-4">
+                    <div class="sponsor-prev1">
+                        <img src="assets/images/icons/Left.svg" alt=""> 
+                    
+                    </div>
+                    <div class="sponsor-prev1">
+                        <img src="assets/images/icons/right-icon.svg" alt=""> 
+                    
+                    </div>
+
+                   
+                </div>
+            </div> -->
+            <!-- eeeee -->
+            <div class="row">
+                <div class="services-section-slider">
+                    <!-- Swiper -->
+                    <div class="swiper service-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="service-item">
+                                    <div class="service-image">
+                                        <a href="#" class="service-details-btn"><img src="assets/images/bg/arrow.svg"
+                                                alt="image"></a>
+                                        <img src="assets/images/icons/Services Image1.png" alt="">
+
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="service-content">
+                                        <div class="service-icon">
+                                            <img src="assets/images/icons/services-icon-1.png" alt="">
+                                        </div>
+                                        <h4>Website Development</h4>
+                                        <p>Get the most of reduction in your team’s operating costs for the whole
+                                            product</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-item">
+                                    <div class="service-image">
+                                        <a href="#" class="service-details-btn"><img src="assets/images/bg/arrow.svg"
+                                                alt="image"></a>
+                                        <img src="assets/images/icons/Services Image2.png" alt="">
+
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="service-content">
+                                        <div class="service-icon">
+                                            <img src="assets/images/icons/services-icon-2.png" alt="">
+                                        </div>
+                                        <h4>Website Development</h4>
+                                        <p>Get the most of reduction in your team’s operating costs for the whole
+                                            product</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-item">
+                                    <div class="service-image">
+                                        <a href="#" class="service-details-btn"><img src="assets/images/bg/arrow.svg"
+                                                alt="image"></a>
+                                        <img src="assets/images/icons/Services Image3.png" alt="">
+
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="service-content">
+                                        <div class="service-icon">
+                                            <img src="assets/images/icons/services-icon-3.png" alt="">
+                                        </div>
+                                        <h4>Website Development</h4>
+                                        <p>Get the most of reduction in your team’s operating costs for the whole
+                                            product</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-item">
+                                    <div class="service-image">
+                                        <a href="#" class="service-details-btn"><img src="assets/images/bg/arrow.svg"
+                                                alt="image"></a>
+                                        <img src="assets/images/icons/Services Image1.png" alt="">
+
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="service-content">
+                                        <div class="service-icon">
+                                            <img src="assets/images/icons/services-icon-1.png" alt="">
+                                        </div>
+                                        <h4>Website Development</h4>
+                                        <p>Get the most of reduction in your team’s operating costs for the whole
+                                            product</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-item">
+                                    <div class="service-image">
+                                        <a href="#" class="service-details-btn"><img src="assets/images/bg/arrow.svg"
+                                                alt="image"></a>
+                                        <img src="assets/images/icons/Services Image2.png" alt="">
+
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="service-content">
+                                        <div class="service-icon">
+                                            <img src="assets/images/icons/services-icon-2.png" alt="">
+                                        </div>
+                                        <h4>Website Development</h4>
+                                        <p>Get the most of reduction in your team’s operating costs for the whole
+                                            product</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-item">
+                                    <div class="service-image">
+                                        <a href="#" class="service-details-btn"><img src="assets/images/bg/arrow.svg"
+                                                alt="image"></a>
+                                        <img src="assets/images/icons/Services Image3.png" alt="">
+
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="service-content">
+                                        <div class="service-icon">
+                                            <img src="assets/images/icons/services-icon-3.png" alt="">
+                                        </div>
+                                        <h4>Website Development</h4>
+                                        <p>Get the most of reduction in your team’s operating costs for the whole
+                                            product</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="service-item">
+                                    <div class="service-image">
+                                        <a href="#" class="service-details-btn"><img src="assets/images/bg/arrow.svg"
+                                                alt="image"></a>
+                                        <img src="assets/images/icons/Services Image1.png" alt="">
+
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="service-content">
+                                        <div class="service-icon">
+                                            <img src="assets/images/icons/services-icon-1.png" alt="">
+                                        </div>
+                                        <h4>Website Development</h4>
+                                        <p>Get the most of reduction in your team’s operating costs for the whole
+                                            product</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============== servicess-section end  =============== -->
+
+<!-- =============== portfolio-section start  =============== -->
+<div class="portfolio-section pt-120 pb-120">
+    <!-- <img src="assets/images/bg/section-bg1.png" alt="image" class="img-fluid section-bg-top">
+    <img src="assets/images/bg/section-bg-bttm.png" alt="image" class="img-fluid section-bg-bottom"> -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="section-title primary5">
+                    <span>-Portfolio-</span>
+                    <h3>Best Work Showcase</h3>
+                    <p class="para">Get the most of reduction in your team’s operating costs for the whole product
+                        which creates amazing UI/UX experiences.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="swiper portfolio-slider1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="portfolio-item1">
+                            <div class="portfolio-img">
+                                <img alt="image" src="assets/images/blogs/portfolio1.png">
+                            </div>
+                            <div class="portfolio-content">
+                                <span>App Design</span>
+                                <h4><a href="project-details.html">Pocket-Sized Notebooks Hold</a></h4>
+                                <a href="project-details.html" class="text-btn">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio-item1">
+                            <div class="portfolio-img">
+                                <img alt="image" src="assets/images/blogs/portfolio2.png">
+                            </div>
+                            <div class="portfolio-content">
+                                <span>Mockup</span>
+                                <h4><a href="project-details.html">A4 Size Flyer Mockup Design</a></h4>
+                                <a href="project-details.html" class="text-btn">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio-item1">
+                            <div class="portfolio-img">
+                                <img alt="image" src="assets/images/blogs/portfolio3.png">
+                            </div>
+                            <div class="portfolio-content">
+                                <span>Ui Illustration</span>
+                                <h4><a href="project-details.html">Ui/Ux Illustration Design..</a></h4>
+                                <a href="project-details.html" class="text-btn">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio-item1">
+                            <div class="portfolio-img">
+                                <img alt="image" src="assets/images/blogs/portfolio1.png">
+                            </div>
+                            <div class="portfolio-content">
+                                <span>App Design</span>
+                                <h4><a href="project-details.html">Pocket-Sized Notebooks Hold</a></h4>
+                                <a href="project-details.html" class="text-btn">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio-item1">
+                            <div class="portfolio-img">
+                                <img alt="image" src="assets/images/blogs/portfolio2.png">
+                            </div>
+                            <div class="portfolio-content">
+                                <span>Mockup</span>
+                                <h4><a href="project-details.html">A4 Size Flyer Mockup Design</a></h4>
+                                <a href="project-details.html" class="text-btn">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="portfolio-item1">
+                            <div class="portfolio-img">
+                                <img alt="image" src="assets/images/blogs/portfolio3.png">
+                            </div>
+                            <div class="portfolio-content">
+                                <span>Ui Illustration</span>
+                                <h4><a href="project-details.html">Ui/Ux Illustration Design..</a></h4>
+                                <a href="project-details.html" class="text-btn">Live Preview</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+<!-- =============== portfolio-section end  =============== -->
+    <!-- =============== activities-section start =============== -->
+
+    <div class="activities-section pt-80 pb-80">
+        <img src="assets/images/bg/water-mark1.png" alt="image" class="img-fluid water-mark1">
+        <img src="assets/images/bg/water-mark2.png" alt="image" class="img-fluid water-mark2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="section-title primary3">
+                        <span>-Our Video-</span>
+                        <h3>Our Company Activities</h3>
+                        <p class="para">Get the most of reduction in your team’s operating costs for the whole product
+                            which creates amazing UI/UX experiences.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="activites-area">
+                <div class="company-vdo">
+                    <div class="video-play style-2">
+                        <a href="#" class="popup-youtube video-icon"><i class="bx bx-play"></i></a>
+                    </div>
+                </div>
+
+                <div class="company-counter">
+                    <div class="row g-4 justify-content-center align-items-center">
+                        <div class="col-lg-3 col-md-6 col-sm-10 col-10">
+                            <div class="countdown">
+                                <h2 class="counter">1550+</h2>
+                                <a href="#">Team member</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-10 col-10">
+                            <div class="countdown">
+                                <h2 class="counter">3330+</h2>
+                                <a href="#">Team member</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-10 col-10">
+                            <div class="countdown">
+                                <h2 class="counter">4150+</h2>
+                                <a href="#">Team member</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-10 col-10">
+                            <div class="countdown">
+                                <h2 class="counter">1530+</h2>
+                                <a href="#">Awards Winner</a>
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- =============== activities-section end  =============== -->
+
+    
+
+
+
+
+
+    <!-- ===== creative-mind section start here ===== -->
+    <div class="blog-section pt-80 pb-80 d-flex flex-column  align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+
+                    <div class="section-title primary2">
+                        <span>-Our Team-</span>
+                        <h3>Our Creative Minds</h3>
+                        <p class="text-center">Get the most of reduction in your team’s operating costs for the whole
+                            product which creates amazing UI/UX experiences.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-team hover-border1">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/images/blogs/team-image-1.png" alt="">
+                            <div class="social-area gap-3">
+                                <div class="social-plus gap-3"><i class='bx bx-plus'></i></div>
+                                <ul
+                                    class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
+                                    <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a></li>
+                                    <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                                    <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-content ">
+                            <h4>Cameron Williamson</h4>
+                            <span>Web Developer</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-team hover-border1">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/images/blogs/team-image-2.png" alt="">
+                            <div class="social-area gap-3">
+                                <div class="social-plus"><i class='bx bx-plus'></i></div>
+                                <ul
+                                    class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
+                                    <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a></li>
+                                    <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                                    <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-content ">
+                            <h4>Marvin McKinney Sr</h4>
+                            <span>Managing Director</span>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-team hover-border1">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/images/blogs/team-image-3.png" alt="">
+                            <div class="social-area gap-3">
+                                <div class="social-plus"><i class='bx bx-plus'></i></div>
+                                <ul
+                                    class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
+                                    <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a></li>
+                                    <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                                    <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-content ">
+                            <h4>Brooklyn Simmons Sr</a></h4>
+                            <span>Ui/Ux Designer</span>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-team hover-border1">
+                        <div class="team-img">
+                            <img class="img-fluid" src="assets/images/blogs/team-image-4.png" alt="">
+                            <div class="social-area gap-3">
+                                <div class="social-plus"><i class='bx bx-plus'></i></div>
+                                <ul
+                                    class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
+                                    <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a></li>
+                                    <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                                    <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-content ">
+                            <h4>Leslie Alexander</h4>
+                            <span>Co Fouteam</span>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===== creative-mind section end here ===== -->
+
+
+    <!-- ===== testimonial section start here ===== -->
+
+    <div class="testimonial-section pt-80 pb-80">
+        <img class="section-bg-bottom" src="assets/images/icons/section-bg-bttm.png" alt="">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+
+                    <div class="section-title primary5">
+                        <span>-Testimonial-</span>
+                        <h3>What They’re Saying</h3>
+                        <p class="text-center">Get the most of reduction in your team’s operating costs for the whole
+                            product which creates amazing UI/UX experiences.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="services-section-slider">
+                    <!-- Swiper -->
+                    <div class="swiper testimonial-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-single hover-border1">
+                                    <img alt="image" src="assets/images/icons/quote-icon.svg" class="quote-icon">
+                                    <div class="testi-img">
+                                        <img alt="image" src="assets/images/blogs/Testimonial Image.png">
+                                    </div>
+                                    <div class="testi-content">
+                                        <div class="testi-designation">
+                                            <h5>Ronald Richards</h5>
+                                            <p>Designer</p>
+                                        </div>
+                                        <p>The Pacific Grove Chamber of Commerce would like to thank eLab
+                                            Communications and Mr. Will Elkadi for all the efforts and suggestions that
+                                            assisted. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-single hover-border1">
+                                    <img alt="image" src="assets/images/icons/quote-icon.svg" class="quote-icon">
+                                    <div class="testi-img">
+                                        <img alt="image" src="assets/images/blogs/Testimonial Image-2.png">
+                                    </div>
+                                    <div class="testi-content">
+                                        <div class="testi-designation">
+                                            <h5>Marvin McKinney</h5>
+                                            <p>Co Founder</p>
+                                        </div>
+                                        <p>The Pacific Grove Chamber of Commerce would like to thank eLab
+                                            Communications and Mr. Will Elkadi for all the efforts and suggestions that
+                                            assisted. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-single hover-border1">
+                                    <img alt="image" src="assets/images/icons/quote-icon.svg" class="quote-icon">
+                                    <div class="testi-img">
+                                        <img alt="image" src="assets/images/blogs/Testimonial Image.png">
+                                    </div>
+                                    <div class="testi-content">
+                                        <div class="testi-designation">
+                                            <h5>Ronald Richards</h5>
+                                            <p>Designer</p>
+                                        </div>
+                                        <p>The Pacific Grove Chamber of Commerce would like to thank eLab
+                                            Communications and Mr. Will Elkadi for all the efforts and suggestions that
+                                            assisted. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-single hover-border1">
+                                    <img alt="image" src="assets/images/icons/quote-icon.svg" class="quote-icon">
+                                    <div class="testi-img">
+                                        <img alt="image" src="assets/images/blogs/Testimonial Image-2.png">
+                                    </div>
+                                    <div class="testi-content">
+                                        <div class="testi-designation">
+                                            <h5>Marvin McKinney</h5>
+                                            <p>Co Founder</p>
+                                        </div>
+                                        <p>The Pacific Grove Chamber of Commerce would like to thank eLab
+                                            Communications and Mr. Will Elkadi for all the efforts and suggestions that
+                                            assisted. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-single hover-border1">
+                                    <img alt="image" src="assets/images/icons/quote-icon.svg" class="quote-icon">
+                                    <div class="testi-img">
+                                        <img alt="image" src="assets/images/blogs/Testimonial Image.png">
+                                    </div>
+                                    <div class="testi-content">
+                                        <div class="testi-designation">
+                                            <h5>Ronald Richards</h5>
+                                            <p>Designer</p>
+                                        </div>
+                                        <p>The Pacific Grove Chamber of Commerce would like to thank eLab
+                                            Communications and Mr. Will Elkadi for all the efforts and suggestions that
+                                            assisted. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-single hover-border1">
+                                    <img alt="image" src="assets/images/icons/quote-icon.svg" class="quote-icon">
+                                    <div class="testi-img">
+                                        <img alt="image" src="assets/images/blogs/Testimonial Image-2.png">
+                                    </div>
+                                    <div class="testi-content">
+                                        <div class="testi-designation">
+                                            <h5>Marvin McKinney</h5>
+                                            <p>Co Founder</p>
+                                        </div>
+                                        <p>The Pacific Grove Chamber of Commerce would like to thank eLab
+                                            Communications and Mr. Will Elkadi for all the efforts and suggestions that
+                                            assisted. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-single hover-border1">
+                                    <img alt="image" src="assets/images/icons/quote-icon.svg" class="quote-icon">
+                                    <div class="testi-img">
+                                        <img alt="image" src="assets/images/blogs/Testimonial Image.png">
+                                    </div>
+                                    <div class="testi-content">
+                                        <div class="testi-designation">
+                                            <h5>Ronald Richards</h5>
+                                            <p>Designer</p>
+                                        </div>
+                                        <p>The Pacific Grove Chamber of Commerce would like to thank eLab
+                                            Communications and Mr. Will Elkadi for all the efforts and suggestions that
+                                            assisted. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="testi-button-next"></div>
+                    <div class="testi-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== testimonial section end here ====== -->
+
+
+    <!-- ===== blog  section start here =====  -->
+    <div class="blog-section pt-80 pb-80 d-flex flex-column  align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+
+                    <div class="section-title primary1">
+                        <span>-Our News-</span>
+                        <h3>Learn Something From Blog</h3>
+                        <p class="text-center">Get the most of reduction in your team’s operating costs for the
+                            whole
+                            product which creates amazing UI/UX experiences.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="assets/images/blogs/blog-image1.png" alt="">
+                        </div>
+                        <div class="blog-content hover-border1">
+                            <span>Ui/Ux Design</span>
+                            <h4><a href="#">How to Create a Useful & Excellent Optimized Section</a></h4>
+                            <div class="blog-meta">
+                                <div class="blog-author-img">
+                                    <img src="assets/images/blogs/blog-writer1.png" alt="">
+                                </div>
+                                <div class="designation">
+                                    <h5>Johan Martin Stw</h5>
+                                    <div class="date">
+                                        Februay 24, 2022 <span>8 Min Read</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="assets/images/blogs/blog-image2.png" alt="">
+                        </div>
+                        <div class="blog-content hover-border1">
+                            <span>Ui/Ux Design</span>
+                            <h4><a href="#">Overcoming Blockers: How to Build Your Red Tape Toolkit</a></h4>
+                            <div class="blog-meta">
+                                <div class="blog-author-img">
+                                    <img src="assets/images/blogs/blog-writer2.png" alt="">
+                                </div>
+                                <div class="designation">
+                                    <h5>Cameron Williamson</h5>
+                                    <div class="date">
+                                        Februay 24, 2022 <span>8 Min Read</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="assets/images/blogs/blog-image3.png" alt="">
+                        </div>
+                        <div class="blog-content hover-border1">
+                            <span>Ui/Ux Design</span>
+                            <h4><a href="#">A lifestyle you always being the focal point is innately.</a></h4>
+                            <div class="blog-meta">
+                                <div class="blog-author-img">
+                                    <img src="assets/images/blogs/blog-writer3.png" alt="">
+                                </div>
+                                <div class="designation">
+                                    <h5>Sara Watson</h5>
+                                    <div class="date">
+                                        Februay 24, 2022 <span>8 Min Read</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===== blog section end here ===== -->
+    <!-- ========sponsor section start here======= -->
+    <div class="sponsor-section pt-80 pb-80">
+        <div class="container">
+            <div class="row align-items-center justify-content-lg-start justify-content-center">
+                <div class="col-md-6 text-lg-start text-center">
+                    <div class="section-title primary5 text-lg-start text-center mb-0">
+                        <span>-Our Partners-</span>
+                        <h3 class="mb-0">People Who Trust Us</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 d-lg-flex justify-content-end d-none">
+                    <div class="slider-arrows2 text-center d-flex gap-4">
+                        <div class="sponsor-prev1">
+                            <img src="assets/images/icons/Left.svg" alt=""> 
+                        
+                        </div>
+                        <div class="sponsor-prev1">
+                            <img src="assets/images/icons/right-icon.svg" alt=""> 
+                        
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center position-relative mt-60">
+                <div class="swiper sponsor-slider swiper-fix wow fadeInUp swiper-initialized swiper-horizontal swiper-pointer-events"
+                    data-wow-duration="1.5s" data-wow-delay="0.2s"
+                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="swiper-wrapper" id="swiper-wrapper-1010aa605c3e0ad231" aria-live="off"
+                        style="transform: translate3d(-1309px, 0px, 0px); transition-duration: 0ms;">
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" role="group"
+                            aria-label="2 / 8" style="width: 167px; margin-right: 20px;" data-swiper-slide-index="1">
+                            <a href="#" class="single-sponsor">
+                                <img src="assets/images/bg/sponsor2.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="3 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="2">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor3.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="4 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="3">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor5.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="5 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="4">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor6.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="6 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="5">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor4.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="7 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="6">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor3.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" role="group"
+                            aria-label="8 / 8" style="width: 167px; margin-right: 20px;" data-swiper-slide-index="7">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor5.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="0">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor1.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="1">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor2.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="3 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="2">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor3.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="4 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="3">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor5.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="5 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="4">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor6.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="6 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="5">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor4.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="7 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="6">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor3.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate-prev" role="group" aria-label="8 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="7">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor5.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" role="group"
+                            aria-label="1 / 8" style="width: 167px; margin-right: 20px;" data-swiper-slide-index="0">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor1.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" role="group"
+                            aria-label="2 / 8" style="width: 167px; margin-right: 20px;" data-swiper-slide-index="1">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor2.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="3 / 8"
+                            style="width: 167px; margin-right: 20px;" data-swiper-slide-index="2">
+                            <a href="#" class="single-sponsor ">
+                                <img src="assets/images/bg/sponsor3.png" alt="image">
+                            </a>
+                        </div>
+
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========sponsor section end here======= -->
+ 
+    <!-- ===== footer section start here ===== -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="footer-item">
+                            <div class="header-logo">
+                                <a href="index.html"><img alt="image" src="assets/images/icons/header1-logo.svg"></a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore.</p>
+                            <div class="input-with-btn d-flex jusify-content-start align-items-strech">
+                                <input type="text" placeholder="Enter your email">
+                                <button type="submit"><img alt="image" src="assets/images/icons/send-icon.svg"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h5>Our Services</h5>
+                            <ul class="footer-list">
+                                <li><a href="#">Strategy & Research</a></li>
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Web Solution</a></li>
+                                <li><a href="#">Digital Merketing</a></li>
+                                <li><a href="#">App Design</a></li>
+                                <li><a href="#">App Development</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h5>Company Info</h5>
+                            <ul class="footer-list">
+                                <li><a href="#">About Company</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Our Portfolio</a></li>
+                                <li><a href="#">Our Blog</a></li>
+                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h5>Contact Us</h5>
+                            <ul class="address-list">
+                                <li><a href="#"> <i class="bi bi-geo-alt-fill"></i> 4517 Washington Ave.
+                                        Manchester,
+                                        Kentucky 39495</a></li>
+                                <li><a href="#"><i class="bi bi-telephone-fill"></i> +880 176 1456 456</a></li>
+                                <li><a href="#"> <i class="bi bi-chat-left-text-fill"></i> info@example.com </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-social ">
+                            <ul class="d-flex  align-items-center gap-3">
+                                <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                                <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                                </li>
+                                <li><a href="https://www.pinterest.com/"><i class='bx bxl-pinterest-alt'></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex justify-content-lg-start justify-content-center">
+                        <p>Copyright 2022 <a href="#">Spinner </a>| Design by <a href="#">Egens Lab</a></p>
+                    </div>
+                    <div class="col-lg-6 d-flex terms-link justify-content-center  justify-content-lg-end">
+                        <a href="#">Privacy Policy</a> |
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ========footer section end here======= -->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Bundle with Popper  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+</body>
+
+</html>
