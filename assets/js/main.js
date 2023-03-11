@@ -4,6 +4,30 @@ $('.popup-youtube').magnificPopup({
     type: 'video',
 });
 
+// mobile-menu
+
+$('.mobile-menu-btn').on("click",function(){
+    $('.main-nav').addClass('show-menu');
+  });
+  
+  $('.menu-close-btn').on("click",function(){
+    $('.main-nav').removeClass('show-menu');
+  });
+  
+  // mobile-drop-down
+  
+  $(".main-nav .bi").on('click', function (event) {
+    var $fl = $(this);
+    $(this).parent().siblings().find('.sub-menu').slideUp();
+    $(this).parent().siblings().find('.bi').addClass('bi-chevron-down');
+    if ($fl.hasClass('bi-chevron-down')) {
+        $fl.removeClass('bi-chevron-down').addClass('bi-chevron-up');
+    } else {
+        $fl.removeClass('bi-chevron-up').addClass('bi-chevron-down');
+    }
+    $fl.next(".sub-menu").slideToggle();
+  });
+
 // mobile-search-area
 
 $('.search-btn').on("click", function(){
