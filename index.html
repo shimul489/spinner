@@ -19,11 +19,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- jquery link cdn -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="assets/css/popup.css">
     <!-- style css -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+
     <header class="header-area style-1 sticky">
         <div class="header-logo">
             <a href="index.html"><img alt="image" src="assets/images/icons/header1-logo.svg"></a>
@@ -67,8 +71,7 @@
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="" class="drop-down">Services</a><i
-                        class='bi bi-chevron-down dropdown-icon'></i>
+                    <a href="" class="drop-down">Services</a><i class='bi bi-chevron-down dropdown-icon'></i>
                     <ul class="sub-menu">
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Services Details</a></li>
@@ -92,6 +95,8 @@
 
                 <li><a href="#">Contact us</a></li>
             </ul>
+
+          
             <!-- mobile-search-area -->
             <div class="d-lg-none d-block">
                 <form class="mobile-menu-form">
@@ -114,13 +119,90 @@
                     <i class="bi bi-list"></i>
                 </div>
             </div>
-            
+            <div class="hotline d-xxl-flex d-none">
+                <div class="hotline-icon">
+                    <img src="assets/images/icons/Mail Icon.svg" alt="">
+                </div>
+                <div class="hotline-info">
+                    <span>Messge Us</span>
+                    <h6><a href="mailto:info@example.com">info@example.com</a></h6>
+                </div>
+            </div>
+
             <div class="eg-btn btn--primary header-btn">
                 <a href="contact.html">LET'S TALK</a>
             </div>
         </div>
     </header>
-
+    <div class="menu-toggle-btn-full-shape">
+        <div class="menu-toggle-wrap bg-white">
+            <div class="sidebar-top-area d-flex justify-content-between align-items-center">
+                <div class="sidebar-logo px-4 py-3 rounded">
+                    <a href="index.html"><img src="assets/images/icons/sidebar-logo.svg" alt="image"></a>
+                </div>
+                <div class="cross-icon">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+            <div class="sidebar-body">
+                <div class="address-card mb-5">
+                    <div class="content">
+                        <div class="header">
+                            <div class="location">
+                                <svg width="18" height="22" viewBox="0 0 18 22"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9 22C9 22 17.25 14.1818 17.25 8.25C17.25 6.06196 16.3808 3.96354 14.8336 2.41637C13.2865 0.869194 11.188 0 9 0C6.81196 0 4.71354 0.869194 3.16637 2.41637C1.61919 3.96354 0.75 6.06196 0.75 8.25C0.75 14.1818 9 22 9 22ZM9 12.375C7.90598 12.375 6.85677 11.9404 6.08318 11.1668C5.3096 10.3932 4.875 9.34402 4.875 8.25C4.875 7.15598 5.3096 6.10677 6.08318 5.33318C6.85677 4.5596 7.90598 4.125 9 4.125C10.094 4.125 11.1432 4.5596 11.9168 5.33318C12.6904 6.10677 13.125 7.15598 13.125 8.25C13.125 9.34402 12.6904 10.3932 11.9168 11.1668C11.1432 11.9404 10.094 12.375 9 12.375Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3>New York</h3>
+                        </div>
+                        <ul class="address-list">
+                            <li><span>Address:</span>2972 Westheimer Rd. Santa &amp;, Illinois 85486</li>
+                            <li><span>Phone:</span><a href="tel:+8801761456456">+8801761456456</a></li>
+                            <li><span>Email:</span> <a href="mailto:info@example.com">info@example.com</a></li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/bg/office1.png" alt="image">
+                </div>
+                <div class="blog-widget-item mb-0">
+                    <div class="follow-area">
+                        <h5 class="blog-widget-title mb-1">Follow Us</h5>
+                        <p class="para">Follow us on Social Network</p>
+                        <div class="blog-widget-body">
+                            <ul class="follow-list d-flex flex-row align-items-start gap-4">
+                                <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+                                <li><a href="https://www.twitter.com/"><i class="bx bxl-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+                                </li>
+                                <li><a href="https://www.pinterest.com/"><i class="bx bxl-pinterest"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-search">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-11">
+                    <label>What are you lookking for?</label>
+                    <input type="text" placeholder="Search Products, Category, Brand">
+                </div>
+                <div class="col-1 d-flex justify-content-end align-items-center gap-2">
+                    <div class="search-cross-btn">
+                        <i class="bx bx-search-alt-2"></i>
+                    </div>
+                    <div class="search-cross-btn">
+                        <i class="bi bi-x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- ========banner stction start here======= -->
 
     <div class="banner-section1 pt-120 pb-120">
@@ -395,108 +477,108 @@
 
     <!-- =============== servicess-section end  =============== -->
 
-<!-- =============== portfolio-section start  =============== -->
-<div class="portfolio-section pt-120 pb-120">
-    <!-- <img src="assets/images/bg/section-bg1.png" alt="image" class="img-fluid section-bg-top">
+    <!-- =============== portfolio-section start  =============== -->
+    <div class="portfolio-section pt-120 pb-120">
+        <!-- <img src="assets/images/bg/section-bg1.png" alt="image" class="img-fluid section-bg-top">
     <img src="assets/images/bg/section-bg-bttm.png" alt="image" class="img-fluid section-bg-bottom"> -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="section-title primary5">
-                    <span>-Portfolio-</span>
-                    <h3>Best Work Showcase</h3>
-                    <p class="para">Get the most of reduction in your team’s operating costs for the whole product
-                        which creates amazing UI/UX experiences.</p>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="section-title primary5">
+                        <span>-Portfolio-</span>
+                        <h3>Best Work Showcase</h3>
+                        <p class="para">Get the most of reduction in your team’s operating costs for the whole product
+                            which creates amazing UI/UX experiences.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="swiper portfolio-slider1">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="portfolio-item1">
-                            <div class="portfolio-img">
-                                <img alt="image" src="assets/images/blogs/portfolio1.png">
-                            </div>
-                            <div class="portfolio-content">
-                                <span>App Design</span>
-                                <h4><a href="project-details.html">Pocket-Sized Notebooks Hold</a></h4>
-                                <a href="project-details.html" class="text-btn">Live Preview</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="portfolio-item1">
-                            <div class="portfolio-img">
-                                <img alt="image" src="assets/images/blogs/portfolio2.png">
-                            </div>
-                            <div class="portfolio-content">
-                                <span>Mockup</span>
-                                <h4><a href="project-details.html">A4 Size Flyer Mockup Design</a></h4>
-                                <a href="project-details.html" class="text-btn">Live Preview</a>
+            <div class="row justify-content-center">
+                <div class="swiper portfolio-slider1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="portfolio-item1">
+                                <div class="portfolio-img">
+                                    <img alt="image" src="assets/images/blogs/portfolio1.png">
+                                </div>
+                                <div class="portfolio-content">
+                                    <span>App Design</span>
+                                    <h4><a href="project-details.html">Pocket-Sized Notebooks Hold</a></h4>
+                                    <a href="project-details.html" class="text-btn">Live Preview</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="portfolio-item1">
-                            <div class="portfolio-img">
-                                <img alt="image" src="assets/images/blogs/portfolio3.png">
-                            </div>
-                            <div class="portfolio-content">
-                                <span>Ui Illustration</span>
-                                <h4><a href="project-details.html">Ui/Ux Illustration Design..</a></h4>
-                                <a href="project-details.html" class="text-btn">Live Preview</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="portfolio-item1">
-                            <div class="portfolio-img">
-                                <img alt="image" src="assets/images/blogs/portfolio1.png">
-                            </div>
-                            <div class="portfolio-content">
-                                <span>App Design</span>
-                                <h4><a href="project-details.html">Pocket-Sized Notebooks Hold</a></h4>
-                                <a href="project-details.html" class="text-btn">Live Preview</a>
+                        <div class="swiper-slide">
+                            <div class="portfolio-item1">
+                                <div class="portfolio-img">
+                                    <img alt="image" src="assets/images/blogs/portfolio2.png">
+                                </div>
+                                <div class="portfolio-content">
+                                    <span>Mockup</span>
+                                    <h4><a href="project-details.html">A4 Size Flyer Mockup Design</a></h4>
+                                    <a href="project-details.html" class="text-btn">Live Preview</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="portfolio-item1">
-                            <div class="portfolio-img">
-                                <img alt="image" src="assets/images/blogs/portfolio2.png">
-                            </div>
-                            <div class="portfolio-content">
-                                <span>Mockup</span>
-                                <h4><a href="project-details.html">A4 Size Flyer Mockup Design</a></h4>
-                                <a href="project-details.html" class="text-btn">Live Preview</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="portfolio-item1">
-                            <div class="portfolio-img">
-                                <img alt="image" src="assets/images/blogs/portfolio3.png">
-                            </div>
-                            <div class="portfolio-content">
-                                <span>Ui Illustration</span>
-                                <h4><a href="project-details.html">Ui/Ux Illustration Design..</a></h4>
-                                <a href="project-details.html" class="text-btn">Live Preview</a>
+                        <div class="swiper-slide">
+                            <div class="portfolio-item1">
+                                <div class="portfolio-img">
+                                    <img alt="image" src="assets/images/blogs/portfolio3.png">
+                                </div>
+                                <div class="portfolio-content">
+                                    <span>Ui Illustration</span>
+                                    <h4><a href="project-details.html">Ui/Ux Illustration Design..</a></h4>
+                                    <a href="project-details.html" class="text-btn">Live Preview</a>
+                                </div>
                             </div>
                         </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio-item1">
+                                <div class="portfolio-img">
+                                    <img alt="image" src="assets/images/blogs/portfolio1.png">
+                                </div>
+                                <div class="portfolio-content">
+                                    <span>App Design</span>
+                                    <h4><a href="project-details.html">Pocket-Sized Notebooks Hold</a></h4>
+                                    <a href="project-details.html" class="text-btn">Live Preview</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio-item1">
+                                <div class="portfolio-img">
+                                    <img alt="image" src="assets/images/blogs/portfolio2.png">
+                                </div>
+                                <div class="portfolio-content">
+                                    <span>Mockup</span>
+                                    <h4><a href="project-details.html">A4 Size Flyer Mockup Design</a></h4>
+                                    <a href="project-details.html" class="text-btn">Live Preview</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio-item1">
+                                <div class="portfolio-img">
+                                    <img alt="image" src="assets/images/blogs/portfolio3.png">
+                                </div>
+                                <div class="portfolio-content">
+                                    <span>Ui Illustration</span>
+                                    <h4><a href="project-details.html">Ui/Ux Illustration Design..</a></h4>
+                                    <a href="project-details.html" class="text-btn">Live Preview</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
+                    <div class="swiper-pagination"></div>
                 </div>
 
-                <div class="swiper-pagination"></div>
+
             </div>
 
-
         </div>
-
     </div>
-</div>
-<!-- =============== portfolio-section end  =============== -->
+    <!-- =============== portfolio-section end  =============== -->
     <!-- =============== activities-section start =============== -->
 
     <div class="activities-section pt-80 pb-80">
@@ -516,7 +598,8 @@
             <div class="activites-area">
                 <div class="company-vdo">
                     <div class="video-play style-2">
-                        <a href="#" class="popup-youtube video-icon"><i class="bx bx-play"></i></a>
+                        <a href="https://www.youtube.com/watch?v=u31qwQUeGuM" class="popup-youtube video-icon"><i
+                                class="bx bx-play"></i></a>
                     </div>
                 </div>
 
@@ -546,9 +629,9 @@
                                 <a href="#">Awards Winner</a>
                             </div>
                         </div>
-    
-    
-    
+
+
+
                     </div>
                 </div>
             </div>
@@ -559,14 +642,15 @@
 
     <!-- =============== activities-section end  =============== -->
 
-    
+
 
 
 
 
 
     <!-- ===== creative-mind section start here ===== -->
-    <div class="blog-section pt-80 pb-80 d-flex flex-column  align-items-center">
+    <div class="team-section pt-80 pb-80 d-flex flex-column  align-items-center">
+        <img src="assets/images/bg/section-bg1.png" alt="image" class="img-fluid water-mark1">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
@@ -582,90 +666,102 @@
             </div>
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
-                    <div class="single-team hover-border1">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/images/blogs/team-image-1.png" alt="">
-                            <div class="social-area gap-3">
-                                <div class="social-plus gap-3"><i class='bx bx-plus'></i></div>
-                                <ul
-                                    class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
-                                    <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a></li>
-                                    <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
-                                </ul>
+                    <div class="single-team1">
+                        <div class="single-team hover-border1">
+                            <div class="team-img">
+                                <img class="img-fluid" src="assets/images/blogs/team-image-1.png" alt="">
+                                <div class="social-area gap-3">
+                                    <div class="social-plus gap-3"><i class='bx bx-plus'></i></div>
+                                    <ul
+                                        class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
+                                        <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                                        </li>
+                                        <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="team-content ">
-                            <h4>Cameron Williamson</h4>
-                            <span>Web Developer</span>
+                            <div class="team-content ">
+                                <h4>Cameron Williamson</h4>
+                                <span>Web Developer</span>
 
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
-                    <div class="single-team hover-border1">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/images/blogs/team-image-2.png" alt="">
-                            <div class="social-area gap-3">
-                                <div class="social-plus"><i class='bx bx-plus'></i></div>
-                                <ul
-                                    class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
-                                    <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a></li>
-                                    <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
-                                </ul>
+                    <div class="single-team1">
+                        <div class="single-team hover-border1">
+                            <div class="team-img">
+                                <img class="img-fluid" src="assets/images/blogs/team-image-2.png" alt="">
+                                <div class="social-area gap-3">
+                                    <div class="social-plus"><i class='bx bx-plus'></i></div>
+                                    <ul
+                                        class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
+                                        <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                                        </li>
+                                        <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="team-content ">
-                            <h4>Marvin McKinney Sr</h4>
-                            <span>Managing Director</span>
+                            <div class="team-content ">
+                                <h4>Marvin McKinney Sr</h4>
+                                <span>Managing Director</span>
 
 
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
-                    <div class="single-team hover-border1">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/images/blogs/team-image-3.png" alt="">
-                            <div class="social-area gap-3">
-                                <div class="social-plus"><i class='bx bx-plus'></i></div>
-                                <ul
-                                    class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
-                                    <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a></li>
-                                    <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
-                                </ul>
+                    <div class="single-team1">
+                        <div class="single-team hover-border1">
+                            <div class="team-img">
+                                <img class="img-fluid" src="assets/images/blogs/team-image-3.png" alt="">
+                                <div class="social-area gap-3">
+                                    <div class="social-plus"><i class='bx bx-plus'></i></div>
+                                    <ul
+                                        class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
+                                        <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                                        </li>
+                                        <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="team-content ">
-                            <h4>Brooklyn Simmons Sr</a></h4>
-                            <span>Ui/Ux Designer</span>
+                            <div class="team-content ">
+                                <h4>Brooklyn Simmons Sr</a></h4>
+                                <span>Ui/Ux Designer</span>
 
 
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
-                    <div class="single-team hover-border1">
-                        <div class="team-img">
-                            <img class="img-fluid" src="assets/images/blogs/team-image-4.png" alt="">
-                            <div class="social-area gap-3">
-                                <div class="social-plus"><i class='bx bx-plus'></i></div>
-                                <ul
-                                    class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
-                                    <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a></li>
-                                    <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
-                                    <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
-                                </ul>
+                    <div class="single-team1">
+                        <div class="single-team hover-border1">
+                            <div class="team-img">
+                                <img class="img-fluid" src="assets/images/blogs/team-image-4.png" alt="">
+                                <div class="social-area gap-3">
+                                    <div class="social-plus"><i class='bx bx-plus'></i></div>
+                                    <ul
+                                        class="social-links d-flex justify-content-center align-items-center flex-column gap-3">
+                                        <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                                        </li>
+                                        <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="team-content ">
-                            <h4>Leslie Alexander</h4>
-                            <span>Co Fouteam</span>
+                            <div class="team-content ">
+                                <h4>Leslie Alexander</h4>
+                                <span>Co Fouteam</span>
 
 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -678,7 +774,7 @@
     <!-- ===== testimonial section start here ===== -->
 
     <div class="testimonial-section pt-80 pb-80">
-        <img class="section-bg-bottom" src="assets/images/icons/section-bg-bttm.png" alt="">
+        <img class="section-bg-bottom" src="assets/images/bg/section-bg1.png" alt="">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
@@ -831,6 +927,8 @@
 
     <!-- ===== blog  section start here =====  -->
     <div class="blog-section pt-80 pb-80 d-flex flex-column  align-items-center">
+        <img src="assets/images/bg/water-mark1.png" alt="image" class="img-fluid water-mark1">
+        <img src="assets/images/bg/water-mark2.png" alt="image" class="img-fluid water-mark2">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
@@ -932,15 +1030,15 @@
                 <div class="col-md-6 d-lg-flex justify-content-end d-none">
                     <div class="slider-arrows2 text-center d-flex gap-4">
                         <div class="sponsor-prev1">
-                            <img src="assets/images/icons/Left.svg" alt=""> 
-                        
+                            <img src="assets/images/icons/Left.svg" alt="">
+
                         </div>
                         <div class="sponsor-prev1">
-                            <img src="assets/images/icons/right-icon.svg" alt=""> 
-                        
+                            <img src="assets/images/icons/right-icon.svg" alt="">
+
                         </div>
 
-                       
+
                     </div>
                 </div>
             </div>
@@ -1066,12 +1164,12 @@
         </div>
     </div>
     <!-- ========sponsor section end here======= -->
- 
+
     <!-- ===== footer section start here ===== -->
     <footer>
         <div class="footer-top">
             <div class="container">
-                <div class="row">
+                <div class="row ">
                     <div class="col-lg-3 col-md-6">
 
                         <div class="footer-item">
@@ -1088,7 +1186,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
+                        <div class="footer-item ps-5">
                             <h5>Our Services</h5>
                             <ul class="footer-list">
                                 <li><a href="#">Strategy & Research</a></li>
@@ -1157,25 +1255,17 @@
     <!-- ========footer section end here======= -->
 
 
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
-        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS Bundle with Popper  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-    <script src="assets/js/main.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

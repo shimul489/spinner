@@ -1,3 +1,47 @@
+(function($) { "use strict";
+$('.popup-youtube').magnificPopup({
+    delegate: 'a', // the selector for gallery item
+    type: 'video',
+});
+
+// mobile-search-area
+
+$('.search-btn').on("click", function(){
+    $('.mobile-search').addClass('slide');
+  });
+  
+  $('.search-cross-btn').on("click", function(){
+    $('.mobile-search').removeClass('slide');
+  });
+  
+// Menu Toggle button sidebar
+var toggleIcon = document.querySelectorAll('.sidebar-btn')
+var closeIcon = document.querySelectorAll('.cross-icon')
+var searchWrap = document.querySelectorAll('.menu-toggle-btn-full-shape')
+
+toggleIcon.forEach((element)=>{
+    element.addEventListener('click', ()=>{
+        document.querySelectorAll('.menu-toggle-btn-full-shape').forEach((el)=>{
+            el.classList.add('show-sidebar')
+        })
+    })
+})
+closeIcon.forEach((element)=>{
+    element.addEventListener('click', ()=>{
+        document.querySelectorAll('.menu-toggle-btn-full-shape').forEach((el)=>{
+            el.classList.remove('show-sidebar')
+        })
+    })
+})
+
+ window.onclick = function(event){
+    // Menu Toggle button sidebar
+    searchWrap.forEach((el)=>{
+      if(event.target === el){
+        el.classList.remove('show-sidebar')
+      }
+    })
+}
 var swiper = new Swiper(".sponsor-slider", {
     slidesPerView: 7,
     speed: 1500,
@@ -218,6 +262,9 @@ var swiper = new Swiper(".testimonial-slider", {
         1200: {
             slidesPerView: 2
         },
+        1400: {
+            slidesPerView: 2
+        },
     }
   });
 
@@ -256,3 +303,6 @@ var swiper = new Swiper(".testimonial-slider", {
       },
   }
   });
+  // Magnific Popup video
+
+}(jQuery));
