@@ -1615,15 +1615,12 @@ header.style-1 .main-nav ul li.menu-item-has-children > i {
   bottom: 0;
   z-index: -1;
 }
-.activites-area{
+/* .activites-area{
   text-align: center;
-  background-image: url("assets/images/bg/count-Backgorund.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  
   padding: 60px 0;
  
-}
+} */
 
 .countdown h2{
   font-weight: 700;
@@ -1649,7 +1646,6 @@ color: #fff;
   border-radius: 5px;
   position: relative;
   z-index: 1;
-  margin-bottom: 40px;
 }
 .video-play.style-2 {
   position: absolute;
@@ -1681,13 +1677,14 @@ color: #fff;
   background: var(--primary-color1);
 }
 .company-counter {
-  background-image: url(../images/bg/counter-bg.png);
+  background-image: url("assets/images/bg/count-Backgorund.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* padding-bottom: 50px;
-  padding-top: 190px; */
+  padding-bottom: 50px;
+  padding-top: 190px;
   margin-top: -150px;
+  text-align: center;
 }
 
 .video-play.style-2 .video-icon::before {
